@@ -24,10 +24,11 @@ const Header = () => {
         visible={visibleBottom}
         onHide={() => setVisibleBottom(false)}
         fullScreen
+        style={{minHeight: '100vh', overflow: 'hidden'}}
         content={({ closeIconRef, hide }) => (
           <div
             style={{ backgroundColor: "#7A2787" }}
-            className="flex flex-column justify-content-center gap-6 align-items-center min-h-screen overflow-y-hidden"
+            className="flex flex-column justify-content-center gap-6 gap-3 align-items-center min-h-screen overflow-y-hidden"
           >
             <Link onClick={() => setVisibleBottom(false)} href="/">
               <Image
@@ -38,7 +39,7 @@ const Header = () => {
                 style={{ objectFit: "cover" }}
               />
             </Link>
-            <div className="flex flex-column text-center gap-6">
+            <div className="flex flex-column text-center gap-5">
               <Link
                 onClick={() => setVisibleBottom(false)}
                 href="/"
