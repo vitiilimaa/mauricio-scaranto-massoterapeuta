@@ -24,7 +24,7 @@ const Header = () => {
         visible={visibleBottom}
         onHide={() => setVisibleBottom(false)}
         fullScreen
-        style={{minHeight: '100vh', overflow: 'hidden'}}
+        style={{ minHeight: "100vh", overflow: "hidden" }}
         content={({ closeIconRef, hide }) => (
           <div
             style={{ backgroundColor: "#7A2787" }}
@@ -116,9 +116,8 @@ const Header = () => {
         <Image
           src={logo}
           alt={"logoLuzDeShiva"}
-          width={280}
-          height={160}
           style={{ objectFit: "cover" }}
+          className="img-logo"
         />
       </Link>
       <Link href="/services" className="header-items hidden xl:block">

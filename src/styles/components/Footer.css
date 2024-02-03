@@ -1,11 +1,18 @@
 footer {
   position: fixed;
-  bottom: 0;
+  bottom: -1px;
   width: 100%;
-  padding: 1.5rem;
+  padding: 1rem;
   background-color: var(--main-color);
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 576px) {
+  footer {
+  padding: 1.5rem;
+
+}
 }
