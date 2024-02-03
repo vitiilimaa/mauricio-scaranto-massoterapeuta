@@ -7,13 +7,18 @@ type SectionTitleProps = {
   title: string;
   subtitle?: string;
   description?: string;
+  addClassContainer?: string;
 };
 
 const SectionTitle = (props: SectionTitleProps) => {
-  const { title, subtitle, description, ...rest } = props;
+  const { title, subtitle, description, addClassContainer, ...rest } = props;
 
   return (
-    <section className="container-section-title gap-4 flex flex-column justify-content-center align-items-center px-5">
+    <section
+      className={`container-section-title gap-4 flex flex-column justify-content-center align-items-center px-5 ${
+        addClassContainer ? addClassContainer : ""
+      }`}
+    >
       <div className="flex align-items-center gap-2">
         <span className="title-line" />
         <h1 {...rest} className={`${rochester.className} section-title my-0`}>
