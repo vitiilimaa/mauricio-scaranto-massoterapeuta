@@ -1,8 +1,11 @@
 "use client";
 import CustomButton from "@luzDeShiva/components/CustomButton";
 import SectionTitle from "@luzDeShiva/components/SectionTitle";
+import { useRouter } from "next/navigation";
 
 const Error = () => {
+  const router = useRouter();
+
   return (
     <div className="min-h-screen flex flex-column justify-content-center align-items-center px-5">
       <SectionTitle title="404" addClassContainer="absolute top-0" />
@@ -12,6 +15,7 @@ const Error = () => {
       <CustomButton
         title="VOLTAR PARA O INÍCIO"
         addClass="text-xl sm:text-2xl"
+        handle={() => router.push('/')}
       />
     </div>
   );
