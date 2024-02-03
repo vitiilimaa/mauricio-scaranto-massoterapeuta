@@ -1,0 +1,12 @@
+.p-dialog-header-icon:focus, .p-dialog-header-icon:active {
+  box-shadow: 0 0 0 0.1rem rgb(206, 206, 206);
+}
+.insta-user {
+  color: #000;
+  font-size: 14px;
+  transition: 0.1s;
+}
+
+.insta-user:hover {
+  opacity: 0.5;
+}

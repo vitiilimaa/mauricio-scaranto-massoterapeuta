@@ -1,0 +1,10 @@
+:root {
+  --main-color: #7A2787;
+  --title-section-color: #701FAF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

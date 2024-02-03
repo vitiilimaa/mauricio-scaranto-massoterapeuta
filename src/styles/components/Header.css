@@ -1,0 +1,13 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--main-color);
+  z-index: 1;
+}
+
+.header-items {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}

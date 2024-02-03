@@ -1,0 +1,9 @@
+ form {
+    width: 15rem !important;
+  }
+
+@media (min-width: 425px) {
+  form {
+    width: 40rem !important;
+  }
+}

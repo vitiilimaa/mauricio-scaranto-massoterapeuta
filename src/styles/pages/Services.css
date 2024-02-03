@@ -1,0 +1,36 @@
+.p-carousel-indicator.p-highlight button {
+  background-color: var(--main-color);
+}
+
+.container-card-text {
+  background-color: var(--main-color);
+  position: relative;
+}
+
+.carousel-container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.p-tooltip-text {
+  box-shadow: none !important;
+  background-color: var(--main-color);
+}
+
+.p-tooltip.p-tooltip-left .p-tooltip-arrow {
+ border-left-color: var(--main-color);
+
+}
+@media (min-width: 650px) {
+  .carousel-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  .carousel-container {
+    margin-left: 16rem;
+    margin-right: 16rem;
+  }
+}
