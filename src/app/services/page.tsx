@@ -10,23 +10,16 @@ import { useEffect, useState } from "react";
 
 const Services = () => {
   const [servicesData, setServicesData] = useState<ServicesProps[]>([]);
+  const carouselResponsiveOptions =
+    typeof window !== "undefined" && window.innerWidth >= 1920
+      ? 3
+      : typeof window !== "undefined" && window.innerWidth >= 1024
+      ? 2
+      : 1;
 
   useEffect(() => {
     setServicesData(services);
   }, []);
-
-  const responsiveOptions = [
-    {
-      breakpoint: "1200px",
-      numVisible: 2,
-      numScroll: 2,
-    },
-    {
-      breakpoint: "850px",
-      numVisible: 1,
-      numScroll: 1,
-    },
-  ];
 
   const serviceTemplate = (service: ServicesProps) => {
     return (
@@ -65,12 +58,11 @@ const Services = () => {
       <div className="mt-5 carousel-container">
         <Carousel
           value={servicesData}
-          numVisible={3}
-          numScroll={3}
+          numVisible={carouselResponsiveOptions}
+          numScroll={carouselResponsiveOptions}
           circular
           autoplayInterval={5000}
           itemTemplate={serviceTemplate}
-          responsiveOptions={responsiveOptions}
         />
       </div>
     </MainContainer>

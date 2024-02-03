@@ -30,10 +30,8 @@ const MainContainer = (props: MainContainerProps) => {
           <Image
             src={backgroundImage}
             alt="mulheres-deitadas-massagem"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
-            style={{ filter: "brightness(0.25)" }}
+            fill
+            style={{ filter: "brightness(0.25)", objectFit: 'cover' }}
           />
           <div className="before-background-style" />
         </>
