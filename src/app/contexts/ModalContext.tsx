@@ -16,7 +16,7 @@ type ModalContextProviderProps = {
 };
 
 const ModalContextProvider = ({ children }: ModalContextProviderProps) => {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
 
 
   return (
