@@ -55,7 +55,7 @@ const Services = () => {
         title="Serviços"
         subtitle="NOSSOS SERVIÇOS, SEU REFÚGIO DE TRANQUILIDADE"
       />
-      <div className="mt-5 carousel-container">
+      <div className="mt-6 carousel-container">
         <Carousel
           value={servicesData}
           numVisible={carouselResponsiveOptions}
