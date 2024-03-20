@@ -1,6 +1,4 @@
 footer {
-  position: fixed;
-  bottom: -1px;
   width: 100%;
   padding: 1rem;
   background-color: var(--main-color);
@@ -12,7 +10,6 @@ footer {
 
 @media (min-width: 576px) {
   footer {
-  padding: 1.5rem;
-
-}
+    padding: 1.5rem;
+  }
 }

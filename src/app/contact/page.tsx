@@ -1,5 +1,4 @@
 "use client";
-
 import MainContainer from "@luzDeShiva/components/MainContainer";
 import SectionTitle from "@luzDeShiva/components/SectionTitle";
 import phone from "../../../public/img/icons/phone.svg";
@@ -84,7 +83,7 @@ const Contact = () => {
 
   return (
     <MainContainer>
-      <Toast ref={toast} position="top-right" />
+      <Toast ref={toast} position="top-center" />
       <SectionTitle title="Contato" />
       <div className="mt-6 flex flex-wrap justify-content-center column-gap-8 row-gap-6 px-5">
         <div className="w-full lg:w-4">

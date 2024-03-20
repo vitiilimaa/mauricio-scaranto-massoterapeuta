@@ -1,3 +1,4 @@
+"use client";
 import "@luzDeShiva/styles/components/CustomButton.css";
 import { Raleway } from "next/font/google";
 import { Button, ButtonProps } from "primereact/button";

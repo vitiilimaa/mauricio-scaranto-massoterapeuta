@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 const Services = () => {
   const [servicesData, setServicesData] = useState<ServicesProps[]>([]);
   const carouselResponsiveOptions =
-    typeof window !== "undefined" && window.innerWidth >= 1920
+    typeof window !== "undefined" && window.innerWidth >= 1900
       ? 3
       : typeof window !== "undefined" && window.innerWidth >= 1024
       ? 2
@@ -31,7 +31,7 @@ const Services = () => {
             style={{ objectFit: "cover" }}
             fill
           />
-          <Tooltip target=".pi-stopwatch" />
+          <Tooltip target=".custom-target-icon" style={{top: '54% !important'}} />
           <i
             className="custom-target-icon pi pi-stopwatch absolute bottom-0 right-0 m-2 text-lg"
             data-pr-tooltip={`Tempo de sessão: ${service.duration}`}

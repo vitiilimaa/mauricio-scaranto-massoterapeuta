@@ -16,9 +16,9 @@ const Team = () => {
       />
       <div className="mt-6 flex flex-wrap justify-content-center gap-4">
         <iframe
-          className="mx-7 lg:mx-0 border-none"
-          width="565"
-          height="300"
+          className="w-10 lg:w-4 border-none"
+          // width="565"
+          height="357"
           src="https://www.youtube.com/embed/uqcOn-e0Fzg?si=2PVK1t03noQfMFQy&autoplay=1"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

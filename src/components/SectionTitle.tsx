@@ -1,3 +1,5 @@
+"use client";
+
 import "@luzDeShiva/styles/components/SectionTitle.css";
 import { Rochester } from "next/font/google";
 

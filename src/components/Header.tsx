@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import "@luzDeShiva/styles/components/Header.css";
 import logo from "../../public/logo.png";

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import "@luzDeShiva/styles/pages/AboutUs.css";
 
 import MainContainer from "@luzDeShiva/components/MainContainer";
@@ -65,12 +65,41 @@ const AboutUs = () => {
               <DescriptiveBox
                 titleStyle={{ lineHeight: 0.75, paddingBottom: 12 }}
                 addClassContainer="mt-5 align-items-center"
-                title="2"
+                title="3"
                 subtitle="Massoterapeutas"
                 icon={massageTherapist}
               />
             </div>
           </div>
+        </div>
+      </div>
+      <div className="grid w-full">
+        <div className="col-12 xl:col-4">
+          <SectionTitle
+            title="Missão"
+            description="Fico em melhorar a saúde, de prevenir desequilíbrios corporais, trabalhando tanto os aspectos físicos como os mentais.
+Melhorar a qualidade de vida de todos pacientes."
+            addClassContainer="mt-7 py-5"
+          />
+        </div>
+
+        <div className="col-12 xl:col-4">
+          <SectionTitle
+            title="Visão"
+            description="Ser referência no segmento de Massoterapias com reconhecimento da sociedade na oferta de serviços de massagem e Terapias Holísticas com profissionais qualificados e diferenciados."
+            addClassContainer="mt-7 py-5"
+          />
+        </div>
+        <div className="col-12 xl:col-4">
+          <SectionTitle
+            title="Valores"
+            description="
+Atuar com ética e responsabilidade com todos os nossos parceiros, colaboradores, clientes e com a comunidade;
+- Contribuir com a melhoria da qualidade de vida do ser humano;
+- Oferecer serviços adequados à necessidade de cada cliente, demonstrando conhecimento e atuando com profissionalismo.
+"
+            addClassContainer="mt-7 py-5"
+          />
         </div>
       </div>
     </MainContainer>

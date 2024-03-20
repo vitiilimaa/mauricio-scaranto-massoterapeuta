@@ -1,3 +1,4 @@
+"use client";
 import "@luzDeShiva/styles/components/CustomButton.css";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
@@ -37,7 +38,7 @@ const Card = (props: CardProps) => {
         <h2 className="my-0 font-normal">{work}</h2>
         <p className="mt-3">{description}</p>
         {socialMediaIcons && (
-          <div className="mt-5 flex gap-1">
+          <div className="mt-3 flex gap-1">
             {socialMediaIcons.map((icon, index) => (
               <Link href={icon.url} target="_blank" key={index}>
                 <Image

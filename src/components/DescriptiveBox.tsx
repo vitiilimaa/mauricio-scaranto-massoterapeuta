@@ -1,3 +1,4 @@
+"use client";
 import "@luzDeShiva/styles/components/DescriptiveBox.css";
 import Image from "next/image";
 

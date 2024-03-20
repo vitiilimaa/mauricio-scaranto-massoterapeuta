@@ -1,3 +1,4 @@
+"use client";
 import "@luzDeShiva/styles/components/MainContainer.css";
 import { CSSProperties, ReactNode } from "react";
 import Image, { StaticImageData } from "next/image";
@@ -17,6 +18,7 @@ const MainContainer = (props: MainContainerProps) => {
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
+    paddingBottom: 0,
   };
 
   return (
@@ -31,7 +33,7 @@ const MainContainer = (props: MainContainerProps) => {
             src={backgroundImage}
             alt="mulheres-deitadas-massagem"
             fill
-            style={{ filter: "brightness(0.25)", objectFit: 'cover' }}
+            style={{ filter: "brightness(0.25)", objectFit: "cover" }}
           />
           <div className="before-background-style" />
         </>

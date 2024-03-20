@@ -1,7 +1,6 @@
 "use client";
-
 import "../styles/components/Modal.css";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import {
   ModalContext,
   ModalContextProps,

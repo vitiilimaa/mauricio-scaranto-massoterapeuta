@@ -17,7 +17,6 @@ export const metadata: Metadata = {
   title: "Luz de Shiva",
   description:
     "Empresa de Massoterapia Profissional no coração da Cidade Baixa em Porto Alegre, RS. Trabalhamos com agendamento prévio para Massagens Tântricas e Tradicionais.",
-  icons: {},
 };
 
 export default function RootLayout({
@@ -27,7 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={raleway.className}>
+      <body
+        className={raleway.className}
+        style={{ position: "relative" }}
+      >
         <ModalContextProvider>
           <Header />
           {children}
