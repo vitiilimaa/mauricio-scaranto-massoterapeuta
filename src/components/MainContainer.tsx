@@ -25,7 +25,7 @@ const MainContainer = (props: MainContainerProps) => {
     <div
       {...rest}
       style={backgroundImage ? imageStyle : {}}
-      className={`pages-container ${addClass}`}
+      className={`flex flex-column pages-container min-h-screen ${addClass}`}
     >
       {backgroundImage && (
         <>

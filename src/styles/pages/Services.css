@@ -21,24 +21,10 @@
   border-left-color: var(--main-color);
 }
 
-.p-tooltip {
-  top: 540px !important;
-}
-
 @media (min-width: 650px) {
   .carousel-container {
     margin-left: 5rem;
     margin-right: 5rem;
-  }
-
-  .p-tooltip {
-    top: 445px !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .p-tooltip {
-    top: 400px !important;
   }
 }
 
