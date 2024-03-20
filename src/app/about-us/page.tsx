@@ -79,7 +79,7 @@ const AboutUs = () => {
             title="Missão"
             description="Fico em melhorar a saúde, de prevenir desequilíbrios corporais, trabalhando tanto os aspectos físicos como os mentais.
 Melhorar a qualidade de vida de todos pacientes."
-            addClassContainer="mt-7 py-5"
+            addClassContainer="mt-5 py-4 xl:mt-7 "
           />
         </div>
 
@@ -87,18 +87,19 @@ Melhorar a qualidade de vida de todos pacientes."
           <SectionTitle
             title="Visão"
             description="Ser referência no segmento de Massoterapias com reconhecimento da sociedade na oferta de serviços de massagem e Terapias Holísticas com profissionais qualificados e diferenciados."
-            addClassContainer="mt-7 py-5"
+            addClassContainer="mt-0 py-4 xl:mt-7 "
           />
         </div>
         <div className="col-12 xl:col-4">
           <SectionTitle
             title="Valores"
-            description="
+            description={`
 Atuar com ética e responsabilidade com todos os nossos parceiros, colaboradores, clientes e com a comunidade;
-- Contribuir com a melhoria da qualidade de vida do ser humano;
+Contribuir com a melhoria da qualidade de vida do ser humano;
 - Oferecer serviços adequados à necessidade de cada cliente, demonstrando conhecimento e atuando com profissionalismo.
-"
-            addClassContainer="mt-7 py-5"
+`}
+
+            addClassContainer="mt-0 py-4 xl:mt-7 "
           />
         </div>
       </div>
