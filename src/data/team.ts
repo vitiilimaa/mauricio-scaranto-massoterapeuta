@@ -40,24 +40,6 @@ const team = [{
       url: "https://api.whatsapp.com/send?phone=555194799081&text=Oii!%20Quero%20uma%20massagem."
     },
   ]
-}, {
-  img: paula,
-  imgStyle: { objectPosition: "50% 58%" },
-  title: "PAULA",
-  work: "Massoterapeuta",
-  description: "Especializada em Massagem Tântrica e Nuru, oferecendo abordagens terapêuticas sensuais para promover bem-estar e conexão profunda com o corpo.",
-  socialMediaIcons: [
-    {
-      img: instagram,
-      socialMedia: "instagram",
-      url: "https://www.instagram.com/mauricio.scaranto/"
-    },
-    {
-      img: whatsapp,
-      socialMedia: "whatsapp",
-      url: "https://api.whatsapp.com/send?phone=555194799081&text=Oii!%20Quero%20uma%20massagem."
-    },
-  ]
 }]
 
 export default team
