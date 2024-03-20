@@ -14,7 +14,7 @@ const Team = () => {
         subtitle="NOSSOS ESPECIALISTAS EXPERIENTES"
         description="Nossa equipe alto astral é acolhedora e transborda energia positiva para tornar sua experiência única."
       />
-      <div className="mt-7 flex flex-wrap justify-content-center gap-8 px-5">
+      <div className="mt-6 xl:mt-8 flex flex-wrap justify-content-center gap-8 px-5">
         {team.map((person, key) => (
           <Card
             key={key}
