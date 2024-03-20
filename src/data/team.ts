@@ -14,7 +14,7 @@ const team = [{
     {
       img: instagram,
       socialMedia: "instagram",
-      url: "https://www.instagram.com/espacoluzdeshiva/"
+      url: "https://www.instagram.com/mauricio.scaranto/"
     },
     {
       img: whatsapp,
@@ -32,7 +32,7 @@ const team = [{
     {
       img: instagram,
       socialMedia: "instagram",
-      url: "https://www.instagram.com/espacoluzdeshiva/"
+      url: "https://www.instagram.com/mauricio.scaranto/"
     },
     {
       img: whatsapp,
@@ -50,7 +50,7 @@ const team = [{
     {
       img: instagram,
       socialMedia: "instagram",
-      url: "https://www.instagram.com/espacoluzdeshiva/"
+      url: "https://www.instagram.com/mauricio.scaranto/"
     },
     {
       img: whatsapp,
