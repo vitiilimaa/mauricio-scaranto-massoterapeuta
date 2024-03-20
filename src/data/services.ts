@@ -1,13 +1,13 @@
-import img1Carousel from "../../public/img/carousel/img1Carousel.jpg"
-import img2Carousel from "../../public/img/carousel/img2Carousel.jpg"
-import img3Carousel from "../../public/img/carousel/img3Carousel.jpg"
-import img4Carousel from "../../public/img/carousel/img4Carousel.jpg"
-import img5Carousel from "../../public/img/carousel/img5Carousel.jpg"
-import img6Carousel from "../../public/img/carousel/img6Carousel.jpg"
-import img7Carousel from "../../public/img/carousel/img7Carousel.jpg"
-import img8Carousel from "../../public/img/carousel/img8Carousel.jpg"
-import img9Carousel from "../../public/img/carousel/img9Carousel.jpg"
-import img10Carousel from "../../public/img/carousel/img10Carousel.jpg"
+import img1Carousel from "@luzDeShiva/img/carousel/img1Carousel.jpg"
+import img2Carousel from "@luzDeShiva/img/carousel/img2Carousel.jpg"
+import img3Carousel from "@luzDeShiva/img/carousel/img3Carousel.jpg"
+import img4Carousel from "@luzDeShiva/img/carousel/img4Carousel.jpg"
+import img5Carousel from "@luzDeShiva/img/carousel/img5Carousel.jpg"
+import img6Carousel from "@luzDeShiva/img/carousel/img6Carousel.jpg"
+import img7Carousel from "@luzDeShiva/img/carousel/img7Carousel.jpg"
+import img8Carousel from "@luzDeShiva/img/carousel/img8Carousel.jpg"
+import img9Carousel from "@luzDeShiva/img/carousel/img9Carousel.jpg"
+import img10Carousel from "@luzDeShiva/img/carousel/img10Carousel.jpg"
 import { StaticImageData } from "next/image";
 
 type ServicesProps = {

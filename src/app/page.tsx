@@ -2,7 +2,7 @@
 import "@luzDeShiva/styles/pages/Home.css";
 
 import MainContainer from "@luzDeShiva/components/MainContainer";
-import backgroundImageHome from "../../public/img/backgroundImageHome.avif";
+import backgroundImageHome from "@luzDeShiva/img/backgroundImageHome.avif";
 import CustomButton from "@luzDeShiva/components/CustomButton";
 import Link from "next/link";
 

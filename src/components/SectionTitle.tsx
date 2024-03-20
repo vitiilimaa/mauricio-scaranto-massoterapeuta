@@ -2,6 +2,7 @@
 
 import "@luzDeShiva/styles/components/SectionTitle.css";
 import { Rochester } from "next/font/google";
+import React from "react";
 
 const rochester = Rochester({ subsets: ["latin"], weight: "400" });
 
@@ -14,6 +15,17 @@ type SectionTitleProps = {
 
 const SectionTitle = (props: SectionTitleProps) => {
   const { title, subtitle, description, addClassContainer, ...rest } = props;
+
+  //Função para converter quebras de linha em elementos <br />
+  const renderDescription = (description: string) => {
+    return description.split('\n').map((line, index) => (
+      <React.Fragment key={index}>
+        {line}
+        <br />
+      </React.Fragment>
+    ));
+  };
+
 
   return (
     <section
@@ -34,8 +46,8 @@ const SectionTitle = (props: SectionTitleProps) => {
         </div>
       )}
       {description && (
-        <div className="md:w-11 lg:w-8 text-center ">
-          <p className="text-2xl my-0">{description}</p>
+        <div className="md:w-11 lg:w-8 text-center">
+          <p className="text-2xl my-0">{renderDescription(description)}</p>
         </div>
       )}
     </section>

@@ -5,7 +5,7 @@ import {
   ModalContext,
   ModalContextProps,
 } from "@luzDeShiva/app/contexts/ModalContext";
-import news from "../../public/img/news.jpg";
+import news from "@luzDeShiva/img/news.jpg";
 import Image from "next/image";
 import { Dialog } from "primereact/dialog";
 import { Avatar } from "primereact/avatar";

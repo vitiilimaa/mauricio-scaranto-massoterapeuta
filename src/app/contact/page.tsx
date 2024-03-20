@@ -1,10 +1,10 @@
 "use client";
 import MainContainer from "@luzDeShiva/components/MainContainer";
 import SectionTitle from "@luzDeShiva/components/SectionTitle";
-import phone from "../../../public/img/icons/phone.svg";
-import location from "../../../public/img/icons/location.svg";
-import mail from "../../../public/img/icons/mail.svg";
-import clock from "../../../public/img/icons/clock.svg";
+import phone from "@luzDeShiva/img/icons/phone.svg";
+import location from "@luzDeShiva/img/icons/location.svg";
+import mail from "@luzDeShiva/img/icons/mail.svg";
+import clock from "@luzDeShiva/img/icons/clock.svg";
 import DescriptiveBox from "@luzDeShiva/components/DescriptiveBox";
 import { Controller, useForm } from "react-hook-form";
 import * as yup from "yup";

@@ -3,17 +3,18 @@ import "@luzDeShiva/styles/pages/AboutUs.css";
 
 import MainContainer from "@luzDeShiva/components/MainContainer";
 import SectionTitle from "@luzDeShiva/components/SectionTitle";
-import cristianoMassoterapia from "../../../public/img/cristianoMassoterapia.jpg";
+import cristianoMassoterapia from "@luzDeShiva/img/cristianoMassoterapia.jpg";
 import Image from "next/image";
 import DescriptiveBox from "@luzDeShiva/components/DescriptiveBox";
-import medal from "../../../public/img/icons/medal.svg";
-import training from "../../../public/img/icons/training.svg";
-import like from "../../../public/img/icons/like.svg";
-import massageTherapist from "../../../public/img/icons/massageTherapist.svg";
+import medal from "@luzDeShiva/img/icons/medal.svg";
+import training from "@luzDeShiva/img/icons/training.svg";
+import like from "@luzDeShiva/img/icons/like.svg";
+import massageTherapist from "@luzDeShiva/img/icons/massageTherapist.svg";
+import team from "@luzDeShiva/data/team";
 
 const AboutUs = () => {
   return (
-    <MainContainer>
+    <MainContainer addClass="pb-5 xl:pb-7">
       <SectionTitle title="Quem somos" subtitle="BEM ESTAR EM PRIMEIRO LUGAR" />
       <div className="mt-6 flex flex-wrap justify-content-center gap-6">
         <Image
@@ -65,7 +66,7 @@ const AboutUs = () => {
               <DescriptiveBox
                 titleStyle={{ lineHeight: 0.75, paddingBottom: 12 }}
                 addClassContainer="mt-5 align-items-center"
-                title="3"
+                title={team.length.toString()}
                 subtitle="Massoterapeutas"
                 icon={massageTherapist}
               />
@@ -79,7 +80,7 @@ const AboutUs = () => {
             title="Missão"
             description="Fico em melhorar a saúde, de prevenir desequilíbrios corporais, trabalhando tanto os aspectos físicos como os mentais.
 Melhorar a qualidade de vida de todos pacientes."
-            addClassContainer="mt-5 py-4 xl:mt-7 "
+            addClassContainer="mt-5 py-4 xl:mt-7"
           />
         </div>
 
@@ -87,19 +88,18 @@ Melhorar a qualidade de vida de todos pacientes."
           <SectionTitle
             title="Visão"
             description="Ser referência no segmento de Massoterapias com reconhecimento da sociedade na oferta de serviços de massagem e Terapias Holísticas com profissionais qualificados e diferenciados."
-            addClassContainer="mt-0 py-4 xl:mt-7 "
+            addClassContainer="mt-0 py-4 xl:mt-7"
           />
         </div>
         <div className="col-12 xl:col-4">
           <SectionTitle
             title="Valores"
-            description={`
-Atuar com ética e responsabilidade com todos os nossos parceiros, colaboradores, clientes e com a comunidade;
-Contribuir com a melhoria da qualidade de vida do ser humano;
+            description={`- Atuar com ética e responsabilidade com todos os nossos parceiros, colaboradores, clientes e com a comunidade;\n
+- Contribuir com a melhoria da qualidade de vida do ser humano;\n
 - Oferecer serviços adequados à necessidade de cada cliente, demonstrando conhecimento e atuando com profissionalismo.
 `}
 
-            addClassContainer="mt-0 py-4 xl:mt-7 "
+            addClassContainer="mt-0 py-4 xl:mt-7 xl:pb-0"
           />
         </div>
       </div>

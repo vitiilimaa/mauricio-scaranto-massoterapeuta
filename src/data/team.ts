@@ -1,8 +1,8 @@
-import mauricio from "../../public/img/team/mauricio.jpg";
-import cristiano from "../../public/img/team/cristiano.jpg";
-import paula from "../../public/img/team/paula.jpg";
-import instagram from "../../public/img/icons/instagram.svg";
-import whatsapp from "../../public/img/icons/whatsapp.svg";
+import mauricio from "@luzDeShiva/img/team/mauricio.jpg";
+import cristiano from "@luzDeShiva/img/team/cristiano.jpg";
+import paula from "@luzDeShiva/img/team/paula.jpg";
+import instagram from "@luzDeShiva/img/icons/instagram.svg";
+import whatsapp from "@luzDeShiva/img/icons/whatsapp.svg";
 
 const team = [{
   img: mauricio,
