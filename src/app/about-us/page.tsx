@@ -78,7 +78,7 @@ const AboutUs = () => {
         <div className="col-12 xl:col-4">
           <SectionTitle
             title="Missão"
-            description="Fico em melhorar a saúde, de prevenir desequilíbrios corporais, trabalhando tanto os aspectos físicos como os mentais.
+            description="Foco em melhorar a saúde, de prevenir desequilíbrios corporais, trabalhando tanto os aspectos físicos como os mentais.
 Melhorar a qualidade de vida de todos pacientes."
             addClassContainer="mt-5 py-4 xl:mt-7"
           />
