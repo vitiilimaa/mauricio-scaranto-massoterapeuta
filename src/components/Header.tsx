@@ -23,19 +23,19 @@ const Header = () => {
         visible={visibleBottom}
         onHide={() => setVisibleBottom(false)}
         fullScreen
-        style={{ minHeight: "100vh", overflow: "hidden" }}
+        style={{
+          minHeight: "100vh",
+          overflow: "hidden",
+          backgroundColor: "#7A2787",
+        }}
         content={({ closeIconRef, hide }) => (
-          <div
-            style={{ backgroundColor: "#7A2787" }}
-            className="flex flex-column justify-content-center gap-6 gap-3 align-items-center min-h-screen overflow-y-hidden"
-          >
+          <div className="flex flex-column justify-content-center align-items-center min-h-screen overflow-y-hidden">
             <Link onClick={() => setVisibleBottom(false)} href="/">
               <Image
                 src={logo}
-                alt={"logoLuzDeShiva"}
-                width={360}
-                height={170}
-                style={{ objectFit: "cover" }}
+                alt={"logoMauricioScaranto"}
+                style={{ objectFit: "cover", height: 250 }}
+                className="img-logo"
               />
             </Link>
             <div className="flex flex-column text-center gap-5">
@@ -82,7 +82,7 @@ const Header = () => {
                 CONTATO
               </Link>
             </div>
-            <div>
+            <div className="mt-6">
               <Button
                 type="button"
                 onClick={(e) => hide(e)}
