@@ -29,7 +29,7 @@ const Header = () => {
           backgroundColor: "#7A2787",
         }}
         content={({ closeIconRef, hide }) => (
-          <div className="flex flex-column justify-content-center align-items-center min-h-screen overflow-y-hidden">
+          <div className="flex flex-column justify-content-center align-items-center min-h-screen overflow-y-hidden pb-6">
             <Link onClick={() => setVisibleBottom(false)} href="/">
               <Image
                 src={logo}
