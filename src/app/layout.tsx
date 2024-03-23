@@ -14,7 +14,7 @@ import Modal from "@luzDeShiva/components/Modal";
 const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Luz de Shiva",
+  title: "Maurício Scaranto - Massoterapeuta",
   description:
     "Empresa de Massoterapia Profissional no coração da Cidade Baixa em Porto Alegre, RS. Trabalhamos com agendamento prévio para Massagens Tântricas e Tradicionais.",
 };
