@@ -1,4 +1,4 @@
-# Projeto de Website para Espaço Luz de Shiva
+# Projeto de Website para Maurício Scaranto - Massoterapeuta
 Este é um projeto de website desenvolvido como freela para um espaço de massoterapia. Utilizei a poderosa combinação de Next.js com TypeScript para uma experiência de desenvolvimento robusta e eficiente.
 
 ## 👨‍💻 Tecnologias Principais:
