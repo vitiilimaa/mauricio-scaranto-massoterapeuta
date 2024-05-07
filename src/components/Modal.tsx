@@ -5,7 +5,6 @@ import {
   ModalContext,
   ModalContextProps,
 } from "@luzDeShiva/app/contexts/ModalContext";
-import news from "@luzDeShiva/img/news.jpg";
 import Image from "next/image";
 import { Dialog } from "primereact/dialog";
 import { Avatar } from "primereact/avatar";
@@ -54,9 +53,9 @@ const Modal = () => {
         filter: "drop-shadow(0 2px 16px rgba(32, 52, 89, .2))",
       }}
     >
-      <Link target="_blank" href={"https://www.instagram.com/p/C2pNG6BuUso/"}>
+      <Link target="_blank" href={""}>
         <Image
-          src={news}
+          src={''}
           alt="instagram-post"
           style={{ objectFit: "cover", width: "100%", height: "auto" }}
         />

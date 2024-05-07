@@ -29,7 +29,7 @@ const SectionTitle = (props: SectionTitleProps) => {
 
   return (
     <section
-      className={`container-section-title gap-4 flex flex-column justify-content-center align-items-center px-5 ${
+      className={`container-section-title gap-4 flex flex-column justify-content-center align-items-center ${
         addClassContainer ? addClassContainer : ""
       }`}
     >
@@ -46,8 +46,8 @@ const SectionTitle = (props: SectionTitleProps) => {
         </div>
       )}
       {description && (
-        <div className="md:w-11 lg:w-8 text-center">
-          <p className="text-2xl my-0">{renderDescription(description)}</p>
+        <div className="px-5 text-center">
+          <p className="text-xl my-0 px-0 text-justify">{renderDescription(description)}</p>
         </div>
       )}
     </section>

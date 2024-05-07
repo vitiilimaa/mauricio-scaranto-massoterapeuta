@@ -105,7 +105,7 @@ const Contact = () => {
               addClassContainerIcon="border-round-xl"
               titleStyle={{ fontSize: 20 }}
               icon={location}
-              title="Rua da República, 422 - Cidade Baixa"
+              title="Av. Cel. Lucas de Oliveira, 41 - Auxiliadora"
               subtitle="Porto Alegre, RS - Brasil"
             />
             <DescriptiveBox

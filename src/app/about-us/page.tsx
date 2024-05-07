@@ -3,7 +3,8 @@ import "@luzDeShiva/styles/pages/AboutUs.css";
 
 import MainContainer from "@luzDeShiva/components/MainContainer";
 import SectionTitle from "@luzDeShiva/components/SectionTitle";
-import cristianoMassoterapia from "@luzDeShiva/img/cristianoMassoterapia.jpg";
+import { Card } from "primereact/card";
+import mauricioScarantoAboutMe from "@luzDeShiva/img/mauricioScarantoAboutMe.jpg";
 import Image from "next/image";
 import DescriptiveBox from "@luzDeShiva/components/DescriptiveBox";
 import medal from "@luzDeShiva/img/icons/medal.svg";
@@ -20,7 +21,7 @@ const AboutUs = () => {
         <Image
           style={{ borderRadius: 20, objectFit: "cover" }}
           className="mx-5 sm:mx-0"
-          src={cristianoMassoterapia}
+          src={mauricioScarantoAboutMe}
           alt="equipe-luz-de-shiva"
           width={500}
           height={380}
@@ -74,33 +75,39 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="grid w-full">
-        <div className="col-12 xl:col-4">
-          <SectionTitle
-            title="Missão"
-            description="Foco em melhorar a saúde, de prevenir desequilíbrios corporais, trabalhando tanto os aspectos físicos como os mentais.
+      <div className="mt-5 grid w-full justify-content-center">
+        <div className="col-10 xl:col-3">
+          <Card className="h-full">
+            <SectionTitle
+              title="Missão"
+              description="Foco em melhorar a saúde, de prevenir desequilíbrios corporais, trabalhando tanto os aspectos físicos como os mentais.
 Melhorar a qualidade de vida de todos pacientes."
-            addClassContainer="mt-5 py-4 xl:mt-7"
-          />
+              addClassContainer="mt-0"
+            />
+          </Card>
         </div>
 
-        <div className="col-12 xl:col-4">
-          <SectionTitle
-            title="Visão"
-            description="Ser referência no segmento de Massoterapias com reconhecimento da sociedade na oferta de serviços de massagem e Terapias Holísticas com profissionais qualificados e diferenciados."
-            addClassContainer="mt-0 py-4 xl:mt-7"
-          />
+        <div className="col-10 xl:col-3">
+          <Card className="h-full">
+            <SectionTitle
+              title="Visão"
+              description="Ser referência no segmento de Massoterapias com reconhecimento da sociedade na oferta de serviços de massagem e Terapias Holísticas com profissionais qualificados e diferenciados."
+              addClassContainer="mt-0"
+            />
+          </Card>
         </div>
-        <div className="col-12 xl:col-4">
-          <SectionTitle
-            title="Valores"
-            description={`- Atuar com ética e responsabilidade com todos os nossos parceiros, colaboradores, clientes e com a comunidade;\n
+
+        <div className="col-10 xl:col-3">
+          <Card className="h-full">
+            <SectionTitle
+              title="Valores"
+              description={`- Atuar com ética e responsabilidade com todos os nossos parceiros, colaboradores, clientes e com a comunidade;\n
 - Contribuir com a melhoria da qualidade de vida do ser humano;\n
 - Oferecer serviços adequados à necessidade de cada cliente, demonstrando conhecimento e atuando com profissionalismo.
 `}
-
-            addClassContainer="mt-0 py-4 xl:mt-7 xl:pb-0"
-          />
+              addClassContainer="mt-0"
+            />
+          </Card>
         </div>
       </div>
     </MainContainer>
