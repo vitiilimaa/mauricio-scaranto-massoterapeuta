@@ -16,7 +16,11 @@ import team from "@luzDeShiva/data/team";
 const AboutUs = () => {
   return (
     <MainContainer addClass="pb-5 xl:pb-7">
-      <SectionTitle title="Quem somos" subtitle="BEM ESTAR EM PRIMEIRO LUGAR" />
+      <SectionTitle
+        title="Quem somos"
+        subtitle="BEM ESTAR EM PRIMEIRO LUGAR"
+        addClassContainer="px-5"
+      />
       <div className="mt-6 flex flex-wrap justify-content-center gap-6">
         <Image
           style={{ borderRadius: 20, objectFit: "cover" }}
@@ -83,6 +87,7 @@ const AboutUs = () => {
               description="Foco em melhorar a saúde, de prevenir desequilíbrios corporais, trabalhando tanto os aspectos físicos como os mentais.
 Melhorar a qualidade de vida de todos pacientes."
               addClassContainer="mt-0"
+              addClassTextDescription="text-justify"
             />
           </Card>
         </div>
@@ -93,6 +98,7 @@ Melhorar a qualidade de vida de todos pacientes."
               title="Visão"
               description="Ser referência no segmento de Massoterapias com reconhecimento da sociedade na oferta de serviços de massagem e Terapias Holísticas com profissionais qualificados e diferenciados."
               addClassContainer="mt-0"
+              addClassTextDescription="text-justify"
             />
           </Card>
         </div>
@@ -106,6 +112,7 @@ Melhorar a qualidade de vida de todos pacientes."
 - Oferecer serviços adequados à necessidade de cada cliente, demonstrando conhecimento e atuando com profissionalismo.
 `}
               addClassContainer="mt-0"
+              addClassTextDescription="text-justify"
             />
           </Card>
         </div>

@@ -13,6 +13,9 @@ const Team = () => {
         title="Cursos"
         subtitle="TRANSFORME TOQUES EM BEM-ESTAR"
         description="Descubra o poder do toque terapêutico e aprofunde seus conhecimentos em massoterapia através dos nossos cursos especializados, guiados por instrutores experientes e prontos para capacitá-lo na arte de promover o equilíbrio e o bem-estar."
+        addClassContainer="px-5"
+        addClassContainerDescription="md:w-11 lg:w-8 text-2xl"
+        addClassTextDescription="text-center"
       />
       <div className="mt-6 flex flex-wrap justify-content-center gap-4">
         <iframe

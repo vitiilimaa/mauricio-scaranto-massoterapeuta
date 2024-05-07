@@ -84,7 +84,7 @@ const Contact = () => {
   return (
     <MainContainer>
       <Toast ref={toast} position="top-center" />
-      <SectionTitle title="Contato" />
+      <SectionTitle title="Contato"/>
       <div className="mt-6 flex flex-wrap justify-content-center column-gap-8 row-gap-6 px-5">
         <div className="w-full lg:w-4">
           <h2 style={{ color: "var(--main-color)" }} className="my-0 text-xl">

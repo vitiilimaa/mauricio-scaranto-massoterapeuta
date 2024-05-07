@@ -11,21 +11,30 @@ type SectionTitleProps = {
   subtitle?: string;
   description?: string;
   addClassContainer?: string;
+  addClassContainerDescription?: string;
+  addClassTextDescription?: string;
 };
 
 const SectionTitle = (props: SectionTitleProps) => {
-  const { title, subtitle, description, addClassContainer, ...rest } = props;
+  const {
+    title,
+    subtitle,
+    description,
+    addClassContainer,
+    addClassContainerDescription,
+    addClassTextDescription,
+    ...rest
+  } = props;
 
   //Função para converter quebras de linha em elementos <br />
   const renderDescription = (description: string) => {
-    return description.split('\n').map((line, index) => (
+    return description.split("\n").map((line, index) => (
       <React.Fragment key={index}>
         {line}
         <br />
       </React.Fragment>
     ));
   };
-
 
   return (
     <section
@@ -46,8 +55,10 @@ const SectionTitle = (props: SectionTitleProps) => {
         </div>
       )}
       {description && (
-        <div className="px-5 text-center">
-          <p className="text-xl my-0 px-0 text-justify">{renderDescription(description)}</p>
+        <div className={`px-5 text-center ${addClassContainerDescription}`}>
+          <p className={`text-xl my-0 px-0 ${addClassTextDescription}`}>
+            {renderDescription(description)}
+          </p>
         </div>
       )}
     </section>

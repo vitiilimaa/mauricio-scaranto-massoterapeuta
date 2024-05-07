@@ -31,7 +31,10 @@ const Services = () => {
             style={{ objectFit: "cover" }}
             fill
           />
-          <Tooltip target=".custom-target-icon" style={{top: '54% !important'}} />
+          <Tooltip
+            target=".custom-target-icon"
+            style={{ top: "54% !important" }}
+          />
           <i
             className="custom-target-icon pi pi-stopwatch absolute bottom-0 right-0 m-2 text-lg"
             data-pr-tooltip={`Tempo de sessão: ${service.duration}`}
@@ -54,6 +57,8 @@ const Services = () => {
       <SectionTitle
         title="Serviços"
         subtitle="NOSSOS SERVIÇOS, SEU REFÚGIO DE TRANQUILIDADE"
+        addClassContainer="px-5"
+        addClassTextDescription="text-center"
       />
       <div className="mt-7 carousel-container">
         <Carousel
