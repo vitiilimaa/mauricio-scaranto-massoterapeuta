@@ -9,6 +9,7 @@ import Image from "next/image";
 import { Dialog } from "primereact/dialog";
 import { Avatar } from "primereact/avatar";
 import Link from "next/link";
+import imgqualquer from "../img/mauricioScarantoAboutMe.jpg"
 
 const Modal = () => {
   const { visible, setVisible } = useContext<ModalContextProps>(ModalContext);
@@ -17,7 +18,7 @@ const Modal = () => {
     <Dialog
       style={{ width: "24vw" }}
       breakpoints={{ "1024px": "50vw", "960px": "75vw", "640px": "90vw" }}
-      visible={visible}
+      visible={true}
       focusOnShow={false}
       header={
         <div className="flex align-items-center">
@@ -55,7 +56,7 @@ const Modal = () => {
     >
       <Link target="_blank" href={""}>
         <Image
-          src={''}
+          src={imgqualquer}
           alt="instagram-post"
           style={{ objectFit: "cover", width: "100%", height: "auto" }}
         />

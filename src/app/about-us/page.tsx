@@ -22,14 +22,18 @@ const AboutUs = () => {
         addClassContainer="px-5"
       />
       <div className="mt-6 flex flex-wrap justify-content-center gap-6">
-        <Image
+        <video autoPlay width="270" height="480" controls controlsList="nodownload">
+          <source src='demonstracaoMassagem.mp4' type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        {/* <Image
           style={{ borderRadius: 20, objectFit: "cover" }}
           className="mx-5 sm:mx-0"
           src={mauricioScarantoAboutMe}
           alt="equipe-luz-de-shiva"
           width={500}
           height={380}
-        />
+        /> */}
         <div className="w-10 lg:w-4">
           <p style={{ fontSize: 18 }} className="mt-0">
             Bem-vindo ao Espaço Luz de Shiva, onde nossa equipe está dedicada a

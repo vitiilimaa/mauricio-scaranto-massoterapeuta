@@ -9,7 +9,7 @@ import Footer from "@luzDeShiva/components/Footer";
 
 import "./globals.css";
 import { ModalContextProvider } from "./contexts/ModalContext";
-import Modal from "@luzDeShiva/components/Modal";
+// import Modal from "@luzDeShiva/components/Modal";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -34,7 +34,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
-          <Modal />
+          {/* <Modal /> */}
         </ModalContextProvider>
       </body>
     </html>
