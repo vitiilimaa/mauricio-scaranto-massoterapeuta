@@ -23,7 +23,9 @@ const AboutUs = () => {
       />
       <div className="mt-6 flex flex-wrap justify-content-center gap-6">
         <video
-          autoPlay
+          id="video-demonstracao-massagem"
+          autoPlay={window.innerWidth > 1024 ? true : false}
+          muted={window.innerWidth < 1024 ? true : false}
           width="270"
           height="480"
           controls
