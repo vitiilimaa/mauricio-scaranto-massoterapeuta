@@ -4,8 +4,8 @@ import "@luzDeShiva/styles/pages/AboutUs.css";
 import MainContainer from "@luzDeShiva/components/MainContainer";
 import SectionTitle from "@luzDeShiva/components/SectionTitle";
 import { Card } from "primereact/card";
-import mauricioScarantoAboutMe from "@luzDeShiva/img/mauricioScarantoAboutMe.jpg";
-import Image from "next/image";
+// import mauricioScarantoAboutMe from "@luzDeShiva/img/mauricioScarantoAboutMe.jpg";
+// import Image from "next/image";
 import DescriptiveBox from "@luzDeShiva/components/DescriptiveBox";
 import medal from "@luzDeShiva/img/icons/medal.svg";
 import training from "@luzDeShiva/img/icons/training.svg";
@@ -17,14 +17,19 @@ const AboutUs = () => {
   return (
     <MainContainer addClass="pb-5 xl:pb-7">
       <SectionTitle
-        title="Quem somos"
+        title="O Espaço"
         subtitle="BEM ESTAR EM PRIMEIRO LUGAR"
         addClassContainer="px-5"
       />
       <div className="mt-6 flex flex-wrap justify-content-center gap-6">
-        <video autoPlay width="270" height="480" controls controlsList="nodownload">
-          <source src='demonstracaoMassagem.mp4' type="video/mp4" />
-          Your browser does not support the video tag.
+        <video
+          autoPlay
+          width="270"
+          height="480"
+          controls
+          controlsList="nodownload"
+        >
+          <source src="demonstracaoMassagem.mp4" type="video/mp4" />
         </video>
         {/* <Image
           style={{ borderRadius: 20, objectFit: "cover" }}

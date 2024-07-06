@@ -10,9 +10,12 @@ const Team = () => {
   return (
     <MainContainer>
       <SectionTitle
-        title="Equipe"
-        subtitle="NOSSOS ESPECIALISTAS EXPERIENTES"
-        description="Nossa equipe alto astral é acolhedora e transborda energia positiva para tornar sua experiência única."
+        title="Maurício"
+        subtitle="ESPECIALISTA EXPERIENTE"
+        description="O massoterapeuta é acolhedor e transborda energia positiva para tornar sua experiência única."
+        // title="Equipe"
+        // subtitle="NOSSOS ESPECIALISTAS EXPERIENTES"
+        // description="Nossa equipe alto astral é acolhedora e transborda energia positiva para tornar sua experiência única."
         addClassContainer="px-5"
         addClassTextDescription="text-center"
       />

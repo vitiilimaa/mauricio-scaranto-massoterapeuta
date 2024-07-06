@@ -51,14 +51,14 @@ const Header = () => {
                 href="/about-us"
                 className="header-items font-light"
               >
-                QUEM SOMOS
+                O ESPAÇO
               </Link>
               <Link
                 onClick={() => setVisibleBottom(false)}
                 href="/team"
                 className="header-items font-light"
               >
-                EQUIPE
+                MAURÍCIO
               </Link>
               <Link
                 onClick={() => setVisibleBottom(false)}
@@ -106,10 +106,10 @@ const Header = () => {
         href="/about-us"
         className="header-items hidden lg:block lg:flex-order-3 xl:flex-order-0"
       >
-        QUEM SOMOS
+        O ESPAÇO
       </Link>
       <Link href="/team" className="header-items hidden xl:block">
-        EQUIPE
+        MAURÍCIO
       </Link>
       <Link className="lg:flex-order-1 xl:flex-order-0" href="/">
         <Image
