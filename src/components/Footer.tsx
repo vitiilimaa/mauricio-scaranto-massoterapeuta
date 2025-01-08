@@ -20,7 +20,7 @@ const Footer = () => {
       <span className="text-center">
         © 2024 - Design and Code by{" "}
         <a
-          href="https://www.vitorbatista.dev"
+          href="https://www.vitordesenvolvedor.com.br"
           target="_blank"
           className="font-bold text-white no-underline"
         >
